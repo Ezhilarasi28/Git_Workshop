@@ -12,7 +12,7 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 
 ### 1. Initialize a New Repository
 
-1. ***git init*** – Creates a Git repository.
+1. ***git init***- Creates a new Git repository in my project folder.
 
 2. ***git status*** – See repository status
 
@@ -31,9 +31,9 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 
 1. ***git status*** – See changes.
 
-2. ***git add task1.txt*** – Stages the file.
+2. ***git add task1.txt and task2.txt*** – Stages the file.
 
-3. ***git commit -m "updates note"*** – Saves changes
+3. ***git commit -m "updates note"*** – Saves the staged changes to the local Git repository
 
 4. ***git push -u origin main*** – Pushes changes to GitHub.
 
@@ -41,10 +41,24 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 
 1. ***.gitignore***  -Tells Git which files should not be tracked.
 
-2. ***echo .env > .gitignore ***  -Adds .env to the ignore list.
+2. ***echo Name=ezhil > .gitignore ***  -Adds to the ignore list.
 
-3. ***git add .gitignore***  -Stages the .gitignore` file.
+3. ***git add .gitignore***  -Stages the .gitignore file.
 
 4. ***git commit -m "Add .gitignore"***  -Saves the changes.
 
 5. ***git push***  -Pushes the changes to GitHub.
+
+## Task 2: Clone, Rename, and Re-Publish 
+
+***Clone the repository:***
+ git clone https://github.com/Lexicon-Smaland/Hello-World.git
+
+ ***Change the remote:*** git remote set-url origin https://github.com/Ezhilarasi28/Gitclone.git
+
+1. ***Edit README.md***
+
+2. ***Add changes:*** git add .
+3. ***Commit changes:*** git commit -m "Update README"
+4. ***Push changes:***git push -u origin main
+
