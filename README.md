@@ -24,15 +24,27 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 
  2. ***git remote add origin <repository-url>*** – Connects to GitHub.
 
-3. ***git remote -v*** – Shows the remote repository.
+3. ***git remote -v*** – view the remote repository.
 
     
 ### 3. Track Changes
 
-1. ***git status*** – Shows changes.
+1. ***git status*** – See changes.
 
 2. ***git add task1.txt*** – Stages the file.
 
 3. ***git commit -m "updates note"*** – Saves changes
 
 4. ***git push -u origin main*** – Pushes changes to GitHub.
+
+### 4. Ignoring Files
+
+1. ***.gitignore***  -Tells Git which files should not be tracked.
+
+2. ***echo .env > .gitignore ***  -Adds .env to the ignore list.
+
+3. ***git add .gitignore***  -Stages the .gitignore` file.
+
+4. ***git commit -m "Add .gitignore"***  -Saves the changes.
+
+5. ***git push***  -Pushes the changes to GitHub.
