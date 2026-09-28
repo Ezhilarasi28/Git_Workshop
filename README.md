@@ -62,3 +62,9 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 3. ***Commit changes:*** git commit -m "Update README"
 4. ***Push changes:***git push -u origin main
 
+## Task 3: Advanced Git Challenges
+
+- Branching and merging by **Padmavathy**
+- Pull requests by **Padmavathy**
+- Revert and reset
+- Tags and releases
