@@ -1,4 +1,4 @@
-# Title:***Git & GitHub Workshop***
+# ***Git & GitHub Workshop***
 
 ## Description:
 
@@ -60,7 +60,7 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 
 2. ***Add changes:*** git add .
 3. ***Commit changes:*** git commit -m "Update README"
-4. ***Push changes:***git push -u origin main
+4. ***Push changes:*** git push -u origin main
 
 ## Task 3: Advanced Git Challenges
 
@@ -68,3 +68,55 @@ In this task, I will create a ***New Git repository***, make my first commit, co
 - Pull requests by **Padmavathy**
 - Revert and reset
 - Tags and releases
+
+## Task 3: Advanced Git Challenges
+
+### 1. Branching and Merging
+
+- Created new branches: `br1`, `br2`, and `br3`.
+
+- Created changes in a branch.
+
+- Used ***git add .*** to stage the changes.
+
+- Used ***git commit*** to save the changes.
+
+- Merged the changes back into the `main` branch.
+
+### 2. Collaborating with Pull Requests
+
+- Forked a classmate's repository: `Padmaqaauto/github-workshop-practice`.
+
+- Created a change in my fork.
+
+- Created a Pull Request from my branch to the classmate's ***main*** branch.
+
+- Pull Request was created successfully and had no merge conflicts.
+
+### 3. Revert and Reset 
+
+- Created a practice branch: ***git checkout -b revert*** 
+
+- Created a practice file: ***echo revert > revert.txt*** 
+
+- Added and committed the file: ***git add .*** ***git commit -m "add revert"***
+
+ - Used ***git revert*** to undo the commit: ***git revert 8ca90c2*** 
+
+ - Used ***git reset --soft HEAD~1*** to move back one commit: 
+ ***git reset --soft HEAD~1*** 
+
+ - Checked the changes:  ***git status*** 
+
+ 
+  ***git log --oneline -3***
+
+### 4. 🏷️ Tagging and Releases
+
+- Created a tag: ***git tag version1***
+
+- Checked the tag: ***git tag***
+
+- Pushed the tag to GitHub: ***git push origin version1***
+ 
+- Verified the ***version1*** tag on GitHub.

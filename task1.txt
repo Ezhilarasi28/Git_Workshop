@@ -1,1 +1,2 @@
 Still i'm learning git and github 
+Practicing Git branching and merging.
